@@ -1,0 +1,244 @@
+<title>IO Sonata - About</title>
+
+<link href="../header.css" rel="stylesheet" type="text/css"/>
+<link href="page_styles.css" rel="stylesheet" type="text/css"/>
+<link href="hierarchy.css" rel="stylesheet" type="text/css"/>
+
+<link rel="icon" type="image/x-icon" href="../Assets/iosonata_logo.png">
+
+<link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+<link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+
+<body>
+    <!--Top Footer-->
+    <div class="top_container">
+        <a href="https://www.i-syst.com/" class="social_media_logo">
+            <img src="../Assets/I-Syst's logo.png">
+        </a>
+
+        <a href="https://github.com/IOsonata/IOsonata" class="social_media_logo">
+            <img src="../Assets/github.png">
+        </a>
+        <a href="" class="social_media_logo">
+            <img src="../Assets/instagram.png">
+        </a>
+        <a href="https://x.com/isyst_inc" class="social_media_logo">
+            <img src="../Assets/twitter.png">
+        </a>
+    </div>
+
+    <!--Navigation Menu-->
+    <nav id="header">
+        <div class="navbar">
+            <!--Hamburger Menu-->
+            <i class='bx bx-menu'></i>
+
+            <!--IO Sonata's Logo-->
+            <div class="logo">
+                <a href="../index.html">
+                    <img src="../Assets/iosonata_header_logo.png"/>
+                </a>
+            </div>
+
+            <!--Navbar Options-->
+            <ul class="links">
+                <div class="sidebar-logo">
+                    <span class="logo">
+                        <img src="../Assets/iosonata_logo.png"/>
+                    </span>
+                    <i class='uil-times'></i>
+                </div>
+                <li><a href="about.html">About</a></li>
+                <li><a href="guide.html">Guide</a></li>
+                <li><a href="documentation.html">Documentation</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+            <!--Search Bar-->
+            <i class="uil uil-search search-icon" id="searchIcon"></i>
+            <!--
+            <div class="search-box">
+                <i class="uil uil-search search-icon"></i>
+                <input type="text" placeholder="Search...">
+            </div>
+            -->
+        </div>
+    </nav>
+
+    <!--Page Path-->
+    <div class="page_path">
+        <a href="../index.html">Home</a> > <a href="about.html"><b>About</b></a>
+    </div>
+
+    <!--Content-->
+    <div class="about_content">
+        <h1>About</h1>
+        <h1>Current IDE Limitations</h1>
+        <h1>External SDK and Libraries</h1>
+        <h1>Development Boards</h1>
+        <h1>Supported Drivers and Sensors</h1>
+        <h1>Folder Structure</h1>
+        <div class="folder_structure">
+            <div id="hierarchy">
+                <div class="foldercontainer">
+                    <!--external-->
+                    <div class="foldercontainer">
+                        <span class="folder fa-folder-o" data-isexpanded="false">external</span>
+                        <span class="file fa-folder-o">nRF5_SDK</span>
+                        <span class="file fa-folder-o">nrf5_SDK_Mesh</span>
+                        <span class="file fa-folder-o">nRF5_SDK_12</span>
+                        <span class="file fa-folder-o">BSEC</span>
+                        <div class="foldercontainer">
+                            <span class="folder fa-folder-o" data-isexpanded="false">Invn</span>
+                            <span class="file fa-folder-o">Devices</span>
+                            <span class="file fa-file-code-o">...</span>
+                        </div>
+                        <span class="file fa-folder-o">lwip</span>
+                        <span class="file fa-folder-o">Other files required...</span>
+                    </div>
+                    <!--IOsonata-->
+                    <div class="foldercontainer">
+                        <span class="folder fa-folder-o" data-isexpanded="false">IOsonata</span>
+                        <div class="foldercontainer">
+                            <span class="folder fa-folder-o" data-isexpanded="false">include</span>
+                            <span class="file fa-folder-o">bluetooth</span>
+                            <span class="file fa-folder-o">converters</span>
+                            <span class="file fa-folder-o">coredev</span>
+                            <span class="file fa-folder-o">miscdev</span>
+                            <span class="file fa-folder-o">sensors</span>
+                            <span class="file fa-folder-o">usb</span>
+                            <span class="file fa-folder-o">Other files required...</span>
+                        </div>
+                        <div class="foldercontainer">
+                            <span class="folder fa-folder-o" data-isexpanded="false">src</span>
+                            <span class="file fa-folder-o">bluetooth</span>
+                            <span class="file fa-folder-o">converters</span>
+                            <span class="file fa-folder-o">coredev</span>
+                            <span class="file fa-folder-o">miscdev</span>
+                            <span class="file fa-folder-o">sensors</span>
+                            <span class="file fa-folder-o">usb</span>
+                            <span class="file fa-folder-o">Other files required...</span>
+                        </div>
+                        <div class="foldercontainer">
+                            <span class="folder fa-folder-o" data-isexpanded="false">ARM</span>
+                            <span class="file fa-folder-o">include</span>
+                            <span class="file fa-folder-o">src</span>
+                            <span class="file fa-folder-o">DbgConfig</span>
+                            <span class="file fa-folder-o">ldscript</span>
+                            <div class="foldercontainer">
+                                <span class="folder fa-folder-o" data-isexpanded="false">Nordic</span>
+                                <div class="foldercontainer">
+                                    <span class="folder fa-folder-o" data-isexpanded="false">nRF51</span>
+                                    <span class="file fa-folder-o">include</span>
+                                    <span class="file fa-folder-o">src</span>
+                                    <div class="foldercontainer">
+                                        <span class="folder fa-folder-o" data-isexpanded="false">lib</span>
+                                        <span class="file fa-folder-o">Eclipse</span>
+                                        <span class="file fa-folder-o">IAR</span>
+                                        <span class="file fa-folder-o">CrossWorks</span>
+                                        <span class="file fa-folder-o">...</span>
+                                    </div>
+                                    <div class="foldercontainer">
+                                        <span class="folder fa-folder-o" data-isexpanded="false">exemples</span>
+                                        <div class="foldercontainer">
+                                            <span class="folder fa-folder-o" data-isexpanded="false">Blink</span>
+                                            <span class="file fa-folder-o">src</span>
+                                            <span class="file fa-folder-o">Eclipse</span>
+                                            <span class="file fa-folder-o">IAR</span>
+                                            <span class="file fa-folder-o">CrossWorks</span>
+                                            <span class="file fa-folder-o">...</span>
+                                        </div>
+                                        <span class="file fa-folder-o">Other examples...</span>
+                                    </div>
+                                </div>
+                                <div class="foldercontainer">
+                                    <span class="folder fa-folder-o" data-isexpanded="false">nRF52</span>
+                                    <span class="file fa-folder-o">include</span>
+                                    <span class="file fa-folder-o">src</span>
+                                    <div class="foldercontainer">
+                                        <span class="folder fa-folder-o" data-isexpanded="false">lib</span>
+                                        <span class="file fa-folder-o">Eclipse</span>
+                                        <span class="file fa-folder-o">IAR</span>
+                                        <span class="file fa-folder-o">CrossWorks</span>
+                                        <span class="file fa-folder-o">...</span>
+                                    </div>
+                                    <div class="foldercontainer">
+                                        <span class="folder fa-folder-o" data-isexpanded="false">exemples</span>
+                                        <div class="foldercontainer">
+                                            <span class="folder fa-folder-o" data-isexpanded="false">Blink</span>
+                                            <span class="file fa-folder-o">src</span>
+                                            <span class="file fa-folder-o">Eclipse</span>
+                                            <span class="file fa-folder-o">IAR</span>
+                                            <span class="file fa-folder-o">CrossWorks</span>
+                                            <span class="file fa-folder-o">...</span>
+                                        </div>
+                                        <span class="file fa-folder-o">Other examples...</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="foldercontainer">
+                                <span class="folder fa-folder-o" data-isexpanded="false">NXP</span>
+                                <span class="file fa-folder-o">bluetooth</span>
+                                <span class="file fa-folder-o">converters</span>
+                                <span class="file fa-folder-o">coredev</span>
+                                <span class="file fa-folder-o">miscdev</span>
+                                <span class="file fa-folder-o">sensors</span>
+                                <span class="file fa-folder-o">usb</span>
+                                <span class="file fa-folder-o">Other files required...</span>
+                            </div>
+                            <div class="foldercontainer">
+                                <span class="folder fa-folder-o" data-isexpanded="false">ST</span>
+                                <span class="file fa-folder-o">bluetooth</span>
+                                <span class="file fa-folder-o">converters</span>
+                                <span class="file fa-folder-o">coredev</span>
+                                <span class="file fa-folder-o">miscdev</span>
+                                <span class="file fa-folder-o">sensors</span>
+                                <span class="file fa-folder-o">usb</span>
+                                <span class="file fa-folder-o">Other files required...</span>
+                            </div>
+                            <span class="file fa-folder-o">Other silicon vendors...</span>
+                        </div>
+                        <div class="foldercontainer">
+                            <span class="folder fa-folder-o" data-isexpanded="false">Linux</span>
+                            <span class="file fa-folder-o">...</span>
+                        </div>
+                        <div class="foldercontainer">
+                            <span class="folder fa-folder-o" data-isexpanded="false">OSX</span>
+                            <span class="file fa-folder-o">...</span>
+                        </div>
+                        <div class="foldercontainer">
+                            <span class="folder fa-folder-o" data-isexpanded="false">Win</span>
+                            <span class="file fa-folder-o">...</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <div class="footer">
+        <h1>Copyright (c) 2024 I-SYST inc. All rights reserved</h1>
+
+        <div>
+            <a href="https://www.i-syst.com/" class="social_media_logo">
+                <img src="../Assets/I-Syst's logo.png">
+            </a>
+    
+            <a href="https://github.com/IOsonata/IOsonata" class="social_media_logo">
+                <img src="../Assets/github.png">
+            </a>
+            <a href="" class="social_media_logo">
+                <img src="../Assets/instagram.png">
+            </a>
+            <a href="https://x.com/isyst_inc" class="social_media_logo">
+                <img src="../Assets/twitter.png">
+            </a>
+        </div>
+    </div>
+
+    <script src="../script.js"></script>
+    <script src="hierarchy_actions.js"></script>
+</body>
